@@ -81,7 +81,7 @@ def help_command(message):
                           "/new_story - начать новую историю\n"
                           "/whole_story - вывести всю историю\n"
                           "/all_tokens - посмотреть все токены\n"
-                          "/end - завершить историю"
+                          "/end - завершить историюpip freeze > requirements.txt"
                         )
 
 
