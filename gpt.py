@@ -22,10 +22,10 @@ def get_system_content(setting_user, hero_user, genre):
 
 
 def count_tokens_in_dialogue(messages: list) -> int:
-    token = get_iam_token()
+    iam_token = get_iam_token()
     folder_id = FOLDER_ID
     headers = {
-        'Authorization': f'Bearer {token}',
+        'Authorization': f'Bearer {iam_token}',
         'Content-Type': 'application/json'
     }
     data = {
